@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="JS/animations.js"></script>
+    <script src="https://kit.fontawesome.com/a018c09afd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <ul>
+        <li><a id="btnPropos">À propos de moi</a></li>
+        <li><a id="btnProjets">Mes projets</a></li>
+        <li><a id="btnContacter">Me contacter</a></li>
+    </ul>
+
+    <main>
+        <div id="boite"></div>
+
+
+        <p id="intro">Pascal Dubois,<br> programmeur/intégrateur <br> de jeux.</p>
+        
+        <div id="infosContact">
+            <br>
+            <i class="far fa-envelope"></i><p>dubois98p@gmail.com</p>
+            <br>
+            <i class="fas fa-phone"></i><p>(438) 824-8590</p>
+        </div>
+
+        <div id="propos">
+            <img id="portrait" src="medias/img/portrait.jpg" alt="">
+
+
+            <div id="zoneTPropos">
+                <p>
+                    Salut! Je suis un finissant du Collège de Maisonneuve passioné au niveau du développement des jeux vidéos! J'ai eu la chance de collaborer avec d'autres
+                    finissants pour la conception de jeux, vidéos, sites webs et plus encore.
+                </p>
+
+                <p>
+                    Ma spécialité est définitivement la programmation de jeux. Cependant, j'adore également le travail relié au design de jeu, qu'il s'agisse de la conception de personnage
+                    à la conception de niveau en passant par l'histoire englobant l'univers du jeu, j'ai toujours de bonnes idées à ce niveux qui vont permettre d'enrichir
+                    l'expérience du joueur!
+                </p>
+
+
+            </div>
+            
+        </div>
+
+        <div id="projets">
+            <p>Tous les jeux affichés ici sont téléchargeables! Pour voir plus de mes projets, visitez ma page <a href="https://www.behance.net/pascaldubois1"> Behance</a></p>
+            <div id="conteneurProjets">
+                <div class="projet">
+                    <a href="https://drive.google.com/file/d/14J_5Vq8P9O6dNVqn85HV03YjqOc3QO6X/view?usp=sharing">
+                        <img src="medias/img/cover.jpg" alt="">
+                        <p>Chaos Castle</p>
+                    </a>
+                </div>
+
+                <div class="projet">
+                    <a href="https://drive.google.com/file/d/11SWBMM1od0ROQB8vVu1YCcosmVve-qZn/view?usp=sharing">
+                        <img src="medias/img/idle.png" alt="">
+                        <p>Évasion</p>
+                    </a>
+                </div>
+
+                <div class="projet">
+                    <a href="https://drive.google.com/file/d/1u4614_vtghEhzHPV8RkO0Usp-8yGfdhJ/view?usp=sharing">
+                        <img id="WIP" src="medias/img/work-in-progress-24027_640.png" alt="">
+                        <p>Bubble Pop! (WIP/VR)</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+<script>
+    document.getElementById("btnContacter").addEventListener("click", changementAnimBoite);
+    document.getElementById("btnProjets").addEventListener("click", changementAnimProjets);
+    document.getElementById("btnPropos").addEventListener("click", changementAnimPropos);
+</script>
+</html>

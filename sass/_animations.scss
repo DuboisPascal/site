@@ -1,0 +1,71 @@
+@keyframes animBoite{
+    from{left: 35vw;transform: rotate(-25deg);}
+    to{left: 0vw;transform: rotate(0deg);}
+}
+@keyframes animBoite2{
+    from{left: 0vw;transform: rotate(0deg);}
+    to{left: 35vw;transform: rotate(-25deg);}
+}
+
+
+
+
+
+@keyframes opacite{
+    from{background-color:rgba(0, 0, 0, 0.7);}
+    to{background-color:  rgba(35, 35, 35, 1);}
+}
+
+@keyframes opacite2{
+    from{background-color:  rgba(35, 35, 35, 1);}
+    to{background-color:rgba(0, 0, 0, 0.7);}
+}
+
+
+
+
+
+
+@keyframes animPropos{
+    from{left: -100vw;}
+    to{left: 0vw;}
+}
+
+@keyframes animPropos2{
+    from{left: 0vw;}
+    to{left: -100vw;}
+}
+
+
+
+
+
+
+
+@keyframes animProjets{
+    from{left: 100vw;}
+    to{left: 0vw;}
+}
+
+@keyframes animProjets2{
+    from{left: 0vw;}
+    to{left: 100vw;}
+}
+
+
+
+
+
+@keyframes opaciteT{
+    from{color: white;}
+    to{color: transparent;}
+}
+
+@keyframes opaciteT2{
+    from{color: transparent;}
+    to{color: white;}
+}
+
+
+
+

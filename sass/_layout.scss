@@ -1,0 +1,214 @@
+/* general */
+html{
+    overflow: hidden;
+    font-family: 'Baloo Paaji 2', cursive;
+    body{
+        background-image: url(../medias/img/bgSite.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        font-size: 1.5rem;
+        ul{
+            display: flex;
+            list-style-type: none;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            margin: 0;
+            padding: 0;
+            align-content: space-around;
+            li{
+                background-color: transparent;
+                margin: auto;
+                display: inline-block;
+                a{
+                    background-color: transparent;
+                    text-decoration: none;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* id */
+
+#boite{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    top: 80vh;
+    left: 35vw;
+    transform: rotate(-25deg);
+}
+
+#propos{
+    background-color:  rgb(35, 35, 35);
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    left: -100vw;
+}
+
+#projets{
+    background-color: rgb(35, 35, 35);
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    left: 100vw;
+
+    p{
+        text-align: center;
+        margin-top: 7.5%;
+    }
+}
+
+#intro{
+    position: absolute;
+    left: 75vw;
+    top: 80vh;
+    width: 20%;
+    font-size: 1.3em;
+    overflow: hidden; 
+    margin: 0 auto;
+    white-space: nowrap;
+    letter-spacing: .1em;
+    
+}
+
+#infosContact{
+    position: absolute;
+    top: 80vh;
+    left:45vw;
+    color: transparent;
+    i{
+        display: inline-block;
+    }
+    p{
+        display: inline-block;
+    }
+}
+
+#portrait{
+    transform: rotate(90deg);
+    width: 20%;
+    border-radius: 500px;
+    position: relative;
+    top: 30vh;
+    left: 10vw;
+}
+
+#zoneTPropos{
+    position: relative;
+    top: -10vh;
+    left: 50vw;
+    width: 35%;
+}
+
+#conteneurProjets{
+    display: flex;
+}
+
+#WIP{
+    width: 150px;
+}
+
+
+/*Classes*/
+
+.projet{
+    position: relative;
+    top: 25vh;
+    left: 32vw;
+    a{
+        text-decoration: none;
+        color: white;
+        :visited, :active, :hover{
+            color: white;
+        }
+        
+        img{
+            width: 250px;
+            border-radius: 250px;
+            margin: auto;
+        }
+        p{
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+    
+}
+
+
+.animBoite1{
+    animation-name: animBoite;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.animBoite2{
+    animation-name: animBoite2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.animPropos1{
+    animation-name: animPropos;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.animPropos2{
+    animation-name: animPropos2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+.animProjets1{
+    animation-name: animProjets;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.animProjets2{
+    animation-name: animProjets2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.opaciteUl1{
+    animation-name: opacite;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.opaciteUl2{
+    animation-name: opacite2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+.opaciteT1{
+    animation-name: opaciteT;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+}
+
+.opaciteT2{
+    animation-name: opaciteT2;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+}
+

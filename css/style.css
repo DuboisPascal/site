@@ -1,0 +1,785 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0;
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+main {
+  display: block;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+[hidden] {
+  display: none;
+}
+
+@-webkit-keyframes animBoite {
+  from {
+    left: 35vw;
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  to {
+    left: 0vw;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes animBoite {
+  from {
+    left: 35vw;
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  to {
+    left: 0vw;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes animBoite2 {
+  from {
+    left: 0vw;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    left: 35vw;
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+}
+
+@keyframes animBoite2 {
+  from {
+    left: 0vw;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    left: 35vw;
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+}
+
+@-webkit-keyframes opacite {
+  from {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  to {
+    background-color: #232323;
+  }
+}
+
+@keyframes opacite {
+  from {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  to {
+    background-color: #232323;
+  }
+}
+
+@-webkit-keyframes opacite2 {
+  from {
+    background-color: #232323;
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@keyframes opacite2 {
+  from {
+    background-color: #232323;
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@-webkit-keyframes animPropos {
+  from {
+    left: -100vw;
+  }
+  to {
+    left: 0vw;
+  }
+}
+
+@keyframes animPropos {
+  from {
+    left: -100vw;
+  }
+  to {
+    left: 0vw;
+  }
+}
+
+@-webkit-keyframes animPropos2 {
+  from {
+    left: 0vw;
+  }
+  to {
+    left: -100vw;
+  }
+}
+
+@keyframes animPropos2 {
+  from {
+    left: 0vw;
+  }
+  to {
+    left: -100vw;
+  }
+}
+
+@-webkit-keyframes animProjets {
+  from {
+    left: 100vw;
+  }
+  to {
+    left: 0vw;
+  }
+}
+
+@keyframes animProjets {
+  from {
+    left: 100vw;
+  }
+  to {
+    left: 0vw;
+  }
+}
+
+@-webkit-keyframes animProjets2 {
+  from {
+    left: 0vw;
+  }
+  to {
+    left: 100vw;
+  }
+}
+
+@keyframes animProjets2 {
+  from {
+    left: 0vw;
+  }
+  to {
+    left: 100vw;
+  }
+}
+
+@-webkit-keyframes opaciteT {
+  from {
+    color: white;
+  }
+  to {
+    color: transparent;
+  }
+}
+
+@keyframes opaciteT {
+  from {
+    color: white;
+  }
+  to {
+    color: transparent;
+  }
+}
+
+@-webkit-keyframes opaciteT2 {
+  from {
+    color: transparent;
+  }
+  to {
+    color: white;
+  }
+}
+
+@keyframes opaciteT2 {
+  from {
+    color: transparent;
+  }
+  to {
+    color: white;
+  }
+}
+
+/* general */
+html {
+  overflow: hidden;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+html body {
+  background-image: url(../medias/img/bgSite.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 1.5rem;
+}
+
+html body ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+  padding: 0;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+html body ul li {
+  background-color: transparent;
+  margin: auto;
+  display: inline-block;
+}
+
+html body ul li a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+html body ul li a:hover {
+  cursor: pointer;
+}
+
+/* id */
+#boite {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vw;
+  position: absolute;
+  top: 80vh;
+  left: 35vw;
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+}
+
+#propos {
+  background-color: #232323;
+  width: 100vw;
+  height: 100vw;
+  position: absolute;
+  left: -100vw;
+}
+
+#projets {
+  background-color: #232323;
+  width: 100vw;
+  height: 100vw;
+  position: absolute;
+  left: 100vw;
+}
+
+#projets p {
+  text-align: center;
+  margin-top: 7.5%;
+}
+
+#intro {
+  position: absolute;
+  left: 75vw;
+  top: 80vh;
+  width: 20%;
+  font-size: 1.3em;
+  overflow: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+  letter-spacing: .1em;
+}
+
+#infosContact {
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+  color: transparent;
+}
+
+#infosContact i {
+  display: inline-block;
+}
+
+#infosContact p {
+  display: inline-block;
+}
+
+#portrait {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 20%;
+  border-radius: 500px;
+  position: relative;
+  top: 30vh;
+  left: 10vw;
+}
+
+#zoneTPropos {
+  position: relative;
+  top: -10vh;
+  left: 50vw;
+  width: 35%;
+}
+
+#conteneurProjets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#WIP {
+  width: 150px;
+}
+
+/*Classes*/
+.projet {
+  position: relative;
+  top: 25vh;
+  left: 32vw;
+}
+
+.projet a {
+  text-decoration: none;
+  color: white;
+}
+
+.projet a :visited, .projet a :active, .projet a :hover {
+  color: white;
+}
+
+.projet a img {
+  width: 250px;
+  border-radius: 250px;
+  margin: auto;
+}
+
+.projet a p {
+  text-align: center;
+  text-decoration: none;
+}
+
+.animBoite1 {
+  -webkit-animation-name: animBoite;
+          animation-name: animBoite;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.animBoite2 {
+  -webkit-animation-name: animBoite2;
+          animation-name: animBoite2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.animPropos1 {
+  -webkit-animation-name: animPropos;
+          animation-name: animPropos;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.animPropos2 {
+  -webkit-animation-name: animPropos2;
+          animation-name: animPropos2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.animProjets1 {
+  -webkit-animation-name: animProjets;
+          animation-name: animProjets;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.animProjets2 {
+  -webkit-animation-name: animProjets2;
+          animation-name: animProjets2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.opaciteUl1 {
+  -webkit-animation-name: opacite;
+          animation-name: opacite;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.opaciteUl2 {
+  -webkit-animation-name: opacite2;
+          animation-name: opacite2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.opaciteT1 {
+  -webkit-animation-name: opaciteT;
+          animation-name: opaciteT;
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.opaciteT2 {
+  -webkit-animation-name: opaciteT2;
+          animation-name: opaciteT2;
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+/*# sourceMappingURL=style.css.map */
